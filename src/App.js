@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
                     <li>jsx</li>
                 </ul>
             </div>
+            <Next />
         </div>
     );
 };
