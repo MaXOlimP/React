@@ -18,11 +18,11 @@ const App = () => {
     );
 };
 
-const ul = () => {
+const Next = () => {
     return (
-        <div>
+        <div className="Next">
             <ul>
-                <li> hea</li>
+                <li> head</li>
             </ul>
         </div>
     );
