@@ -18,7 +18,7 @@ const App = () => {
     );
 };
 
-const title = () => {
+const ul = () => {
     return (
         <div>
             <ul>
