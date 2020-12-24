@@ -4,6 +4,14 @@ import "./App.css";
 const App = () => {
     return (
         <div>
+            <Header />
+            <Technologies />
+        </div>
+    );
+};
+const Technologies = () => {
+    return (
+        <div>
             <div>one dive</div>
             <div className="App">
                 <ul>
@@ -14,18 +22,16 @@ const App = () => {
                     <li>jsx</li>
                 </ul>
             </div>
-            <Next />
         </div>
     );
 };
 
-const Next = () => {
+const Header = () => {
     return (
-        <div className="Next">
-            <ul>
-                <li> head</li>
-            </ul>
+        <div>
+            <a href="#s">first project</a>
         </div>
     );
 };
+
 export default App;
