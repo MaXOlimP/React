@@ -15,6 +15,7 @@
 }
 .header img {
     width: 70px;
+    position: centrum;
 }
 .nav {
     grid-area: n;
